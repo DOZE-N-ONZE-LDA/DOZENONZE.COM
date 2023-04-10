@@ -1,0 +1,57 @@
+.section {
+  position: relative;
+  height: 95vh;
+}
+.wordmark {
+    width:150px;
+}
+.logo {
+ color: #000000;
+ padding: 0;
+ margin-bottom: 20px;
+ text-align: left;
+ width: 200px;
+}
+
+.brands-section {
+    display: flex;
+}
+
+.subtitle {
+    font-size: 20px;
+}
+.brands {
+    display: inline-flex;
+    width: 100%;
+    
+}
+
+.brands:hover {
+    filter: invert(81%) sepia(41%) saturate(1011%) hue-rotate(19deg) brightness(107%) contrast(100%);
+}
+div a, span {
+  color: #000000;
+  text-decoration: none;
+  font-weight: 800;
+}
+
+a:hover {
+    color: #C5FB00;
+}
+
+/* Font Awesome */
+.fab, .far, .fas {
+  padding: 5px;
+  font-size: 24px;
+  text-align: center;
+  color: #000;
+  vertical-align: middle;
+}
+
+.fas:hover, .fab:hover {
+    color: #C5FB00;
+}
+
+#social-bar {
+    margin-top: 20px;
+}
