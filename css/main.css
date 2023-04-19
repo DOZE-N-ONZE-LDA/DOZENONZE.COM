@@ -15,16 +15,13 @@
 }
 
 .brands-section {
-    display: flex;
 }
 
 .subtitle {
     font-size: 20px;
 }
 .brands {
-    display: inline-flex;
-    width: 100%;
-    
+    width: 60%;
 }
 
 .brands:hover {
